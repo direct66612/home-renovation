@@ -39,4 +39,39 @@ export const FooterContainer = styled("footer")`
     font-weight: 700;
     font-size: 35px;
   }
+  @media screen and (min-width: 375px) {
+    .our__projects {
+      display: none;
+    }
+    .social {
+      display: none;
+    }
+    .info {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .our__projects {
+      display: none;
+    }
+    .social {
+      display: none;
+    }
+    .info {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .our__projects {
+      display: flex;
+    }
+    .social {
+      display: flex;
+    }
+    .info {
+      flex-direction: column;
+    }
+  }
 `;

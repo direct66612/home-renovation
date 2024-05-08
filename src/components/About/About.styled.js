@@ -21,7 +21,33 @@ export const Section = styled("section")`
   img {
     width: 930px;
     object-fit: cover;
-    height: auto;
+  }
+  @media screen and (min-width: 375px) {
+    flex-direction: column;
+    img {
+      width: 325px;
+    }
+    .text {
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    flex-direction: column;
+    img {
+      width: 385px;
+    }
+    .text {
+      width: 450px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    flex-direction: row;
+    img {
+      width: 930px;
+    }
+    .text {
+      width: 100%;
+    }
   }
 `;
 export const Reviews = styled("section")`
@@ -55,5 +81,20 @@ export const Reviews = styled("section")`
   }
   img {
     width: 500px;
+  }
+  @media screen and (min-width: 375px) {
+    img {
+      width: 325px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    img {
+      width: 385px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    img {
+      width: 500px;
+    }
   }
 `;

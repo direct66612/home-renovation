@@ -49,4 +49,37 @@ export const Section = styled("section")`
     background-color: #000;
     color: #fff;
   }
+  @media screen and (min-width: 375px) {
+    flex-direction: column;
+    .img__home {
+      width: 325px;
+    }
+    .button__container {
+      flex-direction: column;
+      gap: 45px;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .img__home {
+      width: 385px;
+    }
+    .button__container {
+      flex-direction: column;
+      gap: 45px;
+      margin-bottom: 35px;
+    }
+    flex-direction: column;
+  }
+  @media screen and (min-width: 1440px) {
+    flex-direction: row;
+    .img__home {
+      width: 100%;
+    }
+    .button__container {
+      flex-direction: row;
+      gap: 20px;
+      margin-bottom: 0px;
+    }
+  }
 `;

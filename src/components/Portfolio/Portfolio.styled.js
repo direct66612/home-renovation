@@ -35,4 +35,19 @@ export const Section = styled("section")`
     gap: 30px;
     flex-wrap: wrap;
   }
+  @media screen and (min-width: 375px) {
+    img {
+      width: 325px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    img {
+      width: 430px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    img {
+      width: 630px;
+    }
+  }
 `;

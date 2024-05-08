@@ -76,4 +76,19 @@ export const Section = styled("section")`
     margin: 20px auto 0;
     transition: all 0.5s ease;
   }
+  @media screen and (min-width: 375px) {
+    .text {
+      font-size: 25px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .text {
+      font-size: 30px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .text {
+      font-size: 30px;
+    }
+  }
 `;

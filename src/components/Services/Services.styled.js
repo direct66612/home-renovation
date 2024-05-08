@@ -34,4 +34,37 @@ export const Section = styled("section")`
     display: flex;
     gap: 30px;
   }
+  @media screen and (min-width: 375px) {
+    img {
+      width: 325px;
+    }
+    .services__img-box {
+      flex-direction: column;
+    }
+    .text {
+      width: 325px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    img {
+      width: 430px;
+    }
+    .services__img-box {
+      flex-direction: column;
+    }
+    .text {
+      width: 400px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    img {
+      width: 530px;
+    }
+    .services__img-box {
+      flex-direction: row;
+    }
+    .text {
+      width: 450px;
+    }
+  }
 `;

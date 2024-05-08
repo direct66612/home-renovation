@@ -43,7 +43,7 @@ export const Home = () => {
           </li>
         </ul>
       </div>
-      <img src={homebg} alt="" />
+      <img className="img__home" src={homebg} alt="" />
     </Section>
   );
 };

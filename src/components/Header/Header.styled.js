@@ -28,4 +28,34 @@ export const Container = styled("header")`
     justify-content: center;
     border-radius: 50%;
   }
+  @media screen and (min-width: 375px) {
+    .header__icon-container {
+      display: none;
+    }
+    ul {
+      flex-direction: column;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .header__icon-container {
+      display: none;
+    }
+    ul {
+      flex-direction: column;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .header__icon-container {
+      display: flex;
+    }
+    ul {
+      flex-direction: row;
+      gap: 120px;
+      margin-bottom: 0px;
+    }
+  }
 `;
