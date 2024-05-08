@@ -45,7 +45,7 @@ export const Header = () => {
             </a>
           </li>
           <li className="header__icon">
-            <a href="mailto:example@example.com">
+            <a href="mailto:kjhomerenovation05@gmail.com">
               <img src={mail} alt="mail icon" />
             </a>
           </li>
